@@ -52,8 +52,8 @@
 	                                    <option value="yes">Yes</option>
 	                                    <option value="no">No</option>
 	                                </select>
-	                                <select data-conv-question="This is it! If you like me, consider donating! If you need support, contact me. When the form gets to the end, the plugin submits it normally, like you had filled it." id="">
-	                                    	<option value="google" data-callback="google">Google</option>
+	                                <select data-conv-question="Lets start now with your acount" id="">
+	                                    	<option value="after_login" data-callback="after_login">Let's Start (With your acount)</option>
 	                                </select>
 	                            </form>
 	                        </div>
@@ -68,7 +68,7 @@
 	<script type="text/javascript" src="dist/jquery.convform.js"></script>
 
 	<script>
-	    function google() {
+	    function after_login() {
 		         window.open("after_login.html");
 		}
 		var rollbackTo = false;
