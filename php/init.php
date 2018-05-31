@@ -2,8 +2,8 @@
 
 function goToAuthUrl()
 {
-    $client_id = "ed59b1d02c7d7186a94e";
-    $redirect_url = "http://exercise.org/callback.php";
+    $client_id = "4e43e694b424063fd28d";
+    $redirect_url = "https://ujjwalsidhu.github.io/ujjwalsidhu.io/php/callback.php";
     if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         $url = 'https://github.com/login/oauth/authorize?client_id='. $client_id. "&redirect_url=".$redirect_url."&scope=user";
         header("location: $url");
