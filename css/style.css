@@ -14,7 +14,7 @@ body, html{
   display: inline-block;
 }
 .icon-1{
-  background: url('index-what-is-cloud.png');
+  background: url('../img/index-what-is-cloud.png');
 }
 
 .pimg1, .pimg2, .pimg3{
