@@ -13,6 +13,9 @@ body, html{
   height: 20px;
   display: inline-block;
 }
+.icon-1{
+  background: url('index-what-is-cloud.png');
+}
 
 .pimg1, .pimg2, .pimg3{
   position:relative;
